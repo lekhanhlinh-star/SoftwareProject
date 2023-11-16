@@ -1,37 +1,16 @@
-# Node.js
-node_modules/
+# Node.js Server
+/server/node_modules/
+/server/build/
+/server/.env
 
-# React build artifacts
-build/
-dist/
-.cache/
-*.log
+# React Client
+/client/node_modules/
+/client/build/
+/client/.env
 
-# Dependency directories
-.pnp/
-.pnp.js
-
-
-
-# Editor directories and files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# Logs
-logs
-*.log
-
-# macOS
+# Common
+/node_modules/
+/build/
+/.env
 .DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
-
-# npm package files
-package-lock.json
-yarn.lock
+*.log
